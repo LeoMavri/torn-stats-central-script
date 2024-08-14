@@ -38,7 +38,7 @@ const addStats = async (): Promise<void> => {
 
         const { spyText, tooltipText } = formatSpy(spy);
 
-        // I know this technically wastes a call, but it seems it only works like this
+        // ~~I know this technically wastes a call, but it seems it only works like this.~~ It's a cache hit.
         if ($(u).find('.tsc-chain-spy').length > 0) {
           return;
         }
