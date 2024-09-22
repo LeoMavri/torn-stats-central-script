@@ -17,3 +17,8 @@ table.tsc-stat-table th {
   background-color: var(--tsc-bg-color);
   color: var(--tsc-text-color);
 }
+
+table.tsc-stat-table th {
+  background-color: var(--tsc-bg-color);
+  color: var(--tsc-text-color);
+}
